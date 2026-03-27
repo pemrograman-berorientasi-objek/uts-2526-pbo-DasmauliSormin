@@ -13,6 +13,7 @@ public class TransferTransaction extends Transaction {
     public String getType() {
         return "transfer";
     }
+    
 
     public String getReceiver() {
         return receiver;

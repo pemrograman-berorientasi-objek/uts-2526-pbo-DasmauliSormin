@@ -1,4 +1,3 @@
-
 package fintech.model;
 
 public abstract class Transaction {
@@ -19,4 +18,23 @@ public abstract class Transaction {
 
     public abstract String getType();
 
+    public int getId() {
+        return id;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public String getTimestamp() {
+        return timestamp;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getUsername() {
+        return username;
+    }
 }

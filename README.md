@@ -243,3 +243,7 @@ Pada presentasi:
     src/fintech/driver/Driver3.java
     src/fintech/driver/Driver4.java
     changelog.txt
+
+ while (true) {
+            String line = sc.nextLine();
+            if (line.equals("---")) break;
