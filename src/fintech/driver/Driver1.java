@@ -14,7 +14,7 @@ public class Driver1 {
 
        
 
-            String[] d = line.split("#");
+            String[] d = line.split("#")
 
             if (d[0].equals("create-account")) {
                 accounts.put(d[2], new Account(d[1], d[2]));

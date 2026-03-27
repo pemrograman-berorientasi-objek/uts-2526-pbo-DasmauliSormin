@@ -40,7 +40,7 @@ public class Driver3 {
         }
 
         for(Account a : acc.values()){
-            System.out.println(a.getUsername()+"|"+a.getName()+"|"+a.getBalance());
+            System.out.println(a.getUsername()+"|"+a.getName()+"|"+a.getBalance()
         }
      
     }
