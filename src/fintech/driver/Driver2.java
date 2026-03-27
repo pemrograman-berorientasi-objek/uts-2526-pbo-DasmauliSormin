@@ -7,20 +7,6 @@ import java.util.*;
  * @author 12S24007 - Dasmauli Sormin
  */
 
-p// academic.driver.Driver2
-
-package academic.driver;
-
-import java.util.Scanner;
-import java.util.Arrays;
-
-import academic.model.Student;
-
-/**
- * @author 12S20030 - Lamsihar Siahaan
- * @author 12S20041 - Theresia Agatha Silas Siahaan
- */
-
  public class Driver2 {
      static final String DATA_SEPARATOR = "#";
      static Student[] students = new Student[0];

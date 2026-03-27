@@ -24,7 +24,7 @@ public class Driver4 {
 
             try {
                 switch (d[0]) {
-
+                    case acco
                     case "create-account":
                         accounts.put(d[2], new Account(d[1], d[2]));
                         history.put(d[2], new ArrayList<>());
